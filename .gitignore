@@ -1,0 +1,32 @@
+# Archivos de entorno (contraseñas)
+.env
+*.env
+
+# Carpetas de proyectos generados (datos de usuarios)
+literature_reviews/
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de Streamlit
+.streamlit/

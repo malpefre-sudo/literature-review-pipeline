@@ -1,0 +1,61 @@
+{
+  "project_name": "BaP_Respiratory_Toxicity",
+  "base_path": "./literature_reviews",
+  "description": "Systematic review on Benzo[a]pyrene respiratory toxicity",
+  "selected_databases": [
+    "pubmed",
+    "crossref",
+    "semantic_scholar",
+    "openalex"
+  ],
+  "api_keys": {
+    "entrez_email": "researcher@university.edu",
+    "ncbi_api_key": "",
+    "semantic_scholar_api_key": "",
+    "openalex_email": "researcher@university.edu",
+    "scopus_api_key": ""
+  },
+  "keywords": {
+    "concepts": {
+      "Exposure": [
+        "benzo[a]pyrene",
+        "BaP",
+        "polycyclic aromatic hydrocarbons",
+        "PAHs"
+      ],
+      "Outcome": [
+        "respiratory",
+        "lung",
+        "pulmonary",
+        "bronchial"
+      ],
+      "Effect": [
+        "toxicity",
+        "inflammation",
+        "oxidative stress",
+        "DNA damage"
+      ]
+    },
+    "operators": {
+      "within": "OR",
+      "between": "AND",
+      "parentheses": true
+    },
+    "query": "(benzo[a]pyrene OR BaP OR polycyclic aromatic hydrocarbons OR PAHs) AND (respiratory OR lung OR pulmonary OR bronchial) AND (toxicity OR inflammation OR oxidative stress OR DNA damage)"
+  },
+  "options": {
+    "max_results_per_db": 200,
+    "date_range": [
+      "2010-01-01",
+      "2026-05-12"
+    ],
+    "language_filter": [
+      "english"
+    ],
+    "article_types": [
+      "review",
+      "research article",
+      "clinical trial"
+    ]
+  }
+}
